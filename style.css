@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto+Slab:wght@100..900&display=swap');
+.courgette-regular {
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  html,body{
+    height:100%
+  }
+  body {
+    background: rgb(49, 49, 54) url("bck.jpg")  center no-repeat ;
+     background-size:cover;
+    margin:0
+  }
+  .logo {
+    cursor:col-resize;
+    text-align: center;
+    width: 65%;
+    height: 250px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+     user-select: none;
+  }
+  .logo b{
+font: 400 20vh "Vibur";
+    color: rgb(224, 221, 15);
+    text-shadow: 0 -30px 100px, 0 0 2px, 0 0 1em #16c2b9, 0 0 0.5em #1ac971, 0 0 0.1em #21ac14bb, 0 10px 3px #b4ca35;
+  }
+  .logo b span{
+    animation: blink  linear infinite 2s;
+  }
+  .logo b span:nth-of-type(2){
+    animation: blink linear infinite 3s;
+  }
+  @keyframes blink {
+    78% {
+      color: rgb(207, 57, 102);
+      text-shadow: inherit;
+    }
+    79%{
+       color: #170644;
+    }
+    80% {
+      text-shadow:#d4cfcf;
+    }
+    81% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    82% {
+      color: #333;
+      text-shadow: none;
+    }
+    83% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+    92% {
+      color: #86154e;
+      text-shadow: none;
+    }
+    92.5% {
+      color: inherit;
+      text-shadow: inherit;
+    }
+  }
+    
